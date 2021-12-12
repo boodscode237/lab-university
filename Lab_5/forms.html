@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea name="address" id="textarea" cols="30" rows="10">Write here</textarea>
+<table border="1">
+    <tr>
+        <td>
+            Выберите категорию проекта:
+        </td>
+        <td>
+            <form>
+                <select size="2" name="kategoria">
+                    <option value=" townhouse" />Проекты таунхаусов и блокированных домов
+                    <option value="two family" />Проекты домов на две семьи
+                    <option value="uzkie" />Проекты узких домов
+                    <option value=" banya" />Проекты бань
+                </select>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Выберите материал:
+        </td>
+        <td>
+            <label>
+                <select multiple="yes" name="material">
+                    <option value="kirpich" />Проекты кирпичных домов
+                    <option value=" gazo peno" />Проекты домов из rазобетона и
+                    пенобетона
+                    <option value=" brus brevno" />Проекты домов из бруса и бревна
+                    <option value="karkas" />Проекты каркасных домов
+                </select>
+            </label>
+            </form>
+        </td>
+    </tr>
+</table>
+<table>
+    <caption>Ages</caption>
+    <tr>
+        <td>
+            <label>
+            <span>До 18</span>
+            </label>
+        </td>
+        <td>
+            <label>
+            <input type="radio" name="age">
+            </label>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <label>
+            <span>18-50</span>
+            </label>
+        </td>
+        <td>
+            <label>
+            <input type="radio" name="age">
+            </label>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <label>
+                <span>Старше 50</span>
+            </label>
+        </td>
+        <td>
+            <label>
+                <input type="radio" name="age">
+            </label>
+        </td>
+
+    </tr>
+</table>
+
+<form action="https://www.w3schools.com/tags/att_input_type_checkbox.asp">
+    <table border="1">
+        <caption>Choices</caption>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты таунхаусов и блокированных домов</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты домов на две семьи</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты узких домов</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты бань</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты кирпичных домов</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты домов из газобетона и пенобетона</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты домов из бруса и бревна</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Проекты каркасных домов</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" name="age">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Send Data">
+                <button type="reset">Reset</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<form action="">
+    <table border="1">
+        <caption>Address</caption>
+        <tr>
+            <td>
+                <label>
+                    <span>Name and Surname</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="name_surname">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Telephone</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="telephone">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Email</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="mail">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Address</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="address">
+                </label>
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<h1>Order a project</h1>
+<p>Blah blah blah</p>
+<a href="mailto:a_vrv@list.ru">Написать создателям сайта</a>
+
+
+</body>
+</html>

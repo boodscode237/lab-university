@@ -1,0 +1,61 @@
+html{
+    background-image: url("../assets/fon10.jpg") ;
+}
+h1 {
+    font-family: Verdana, serif;
+    font-size: 20pt;
+    /*color: #0000ff;*/
+    text-align: left;
+}
+h2 {
+    font-family: Verdana, serif;
+    font-size: 16pt;
+    color: #800000;
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial;
+    font-size: 12pt;
+    color: #191970;
+}
+
+/*body{*/
+/*    background-color: #ccffff;*/
+/*}*/
+
+h1.main, p.main {
+    color: navy;
+}
+h1.golub, p.golub {
+    color: blue;
+}
+h1.krasn, p.krasn {
+    color: red;
+}
+h1.zelen,p.zelen {
+    color: green;
+}
+h1.oranzhev, p.oranzhev {
+    color: orange;
+}
+
+p.main{
+    text-align: center;
+}
+p.golub{
+    text-align: start;
+}
+p.krasn{
+    text-align: right;
+}
+p.zelen{
+    text-align: left;
+}
+p.oranzhev{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: "Arial", Courier, monospace;
+    color: #000000;
+    padding: 0;
+    background: #ffffff;
+}
+
+#container{
+    width: 900px;
+    margin: 0 auto;
+    border: 2px #000 solid;
+}
+
+#top{
+    width: 900px;
+    margin: 0 auto;
+    border: 2px #000 solid;
+}
+
+#left_bar{
+    background: #009900;
+    width: 160px;
+    height: 350px;
+    float:left;
+}
+
+#main{
+    position: relative;
+    background: #006699;
+    width: 580px;
+    height: 350px;
+    float:left;
+}
+
+#right_bar{
+    background: #006600;
+    width: 160px;
+    height: 350px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}

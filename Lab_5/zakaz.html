@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zakaz</title>
+</head>
+<body>
+<h1 style="color:#02026e;">Order a project</h1>
+<p>Blah blah blah</p>
+<a href="mailto:a_vrv@list.ru">Написать создателям сайта</a>
+
+
+<form action="https://www.w3schools.com/tags/att_input_type_checkbox.asp" id="newForm">
+    <table border="1">
+        <caption>Here you can fill the form</caption>
+        <tr>
+            <td>
+                <label>
+                    <span>Say something about your order</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <textarea name="address" id="textarea" cols="30" rows="10"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Name and Surname</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="name_surname">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Telephone</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="telephone">
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Email</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="mail">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Address</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="text" name="mail">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Выберите категорию проекта:
+            </td>
+            <td>
+                    <select name="kategoria">
+                        <option value=" townhouse" />Проекты таунхаусов и блокированных домов
+                        <option value="two family" />Проекты домов на две семьи
+                        <option value="uzkie" />Проекты узких домов
+                        <option value=" banya" />Проекты бань
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Выберите материал:
+            </td>
+            <td>
+                <label>
+                    <select name="material">
+                        <option value="kirpich" />Проекты кирпичных домов
+                        <option value=" gazo peno" />Проекты домов из rазобетона и
+                        пенобетона
+                        <option value=" brus brevno" />Проекты домов из бруса и бревна
+                        <option value="karkas" />Проекты каркасных домов
+                    </select>
+                </label>
+</td>
+</tr>
+        <tr>
+            <td>Your age</td>
+            <td>
+        <tr>
+        <td>Age</td>
+        <td>
+            <span>До 18</span>
+            <input type="radio">
+            <br>
+            <span>18-50</span>
+            <input type="radio">
+            <br>
+            <span>More then 50</span>
+            <input type="radio">
+        </td>
+
+    </tr>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Send Data">
+                <input type="button" value="Reset" onclick="newFunction()">
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+    function newFunction() {
+        document.getElementById("newForm").reset();
+    }
+</script>
+</body>
+</html>
