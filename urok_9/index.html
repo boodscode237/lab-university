@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="row">
+    <div class="col">
+        <div class="content">
+            <img src=" bedroom.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src=" berlin.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src=" cat.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="forest.jpg" onclick="openLightbox();toSlide(4)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="kangaroo.jpg" onclick="openLightbox();toSlide(5)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="nature.jpg" onclick="openLightbox();toSlide(6)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="netherlands.jpg" onclick="openLightbox();toSlide(7)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="new_york_city.jpg" onclick="openLightbox();toSlide(8)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="red-fox.jpg" onclick="openLightbox();toSlide(9)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="sauerland.jpg" onclick="openLightbox();toSlide(10)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="tree.jpg" onclick="openLightbox();toSlide(11)" class="hover-shadow preview" />
+        </div>
+    </div>
+    <div class="col">
+        <div class="content">
+            <img src="tree.jpg" onclick="openLightbox();toSlide(12)" class="hover-shadow preview" />
+        </div>
+    </div>
+</div>
+<div id="Lightbox" class="modal">
+    <span class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+        <div class="slide">
+            <img src=" bedroom.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src=" berlin.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src=" cat.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="forest.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="kangaroo.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="nature.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="netherlands.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="new_york_city.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="red-fox.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="sauerland.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="tree.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="slide">
+            <img src="tree.jpg" class="image-slide" />
+            <p class="text-block">Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
