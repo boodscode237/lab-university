@@ -1,0 +1,28 @@
+/*При ширине экрана 1200px и выше */
+@media (min-width: 1200px){
+    /*.container {background: #f4d798;}*/
+    .warning{
+        background: #f4d798;
+    }
+    .red{
+        color: red;
+        font-size: larger;
+    }
+}
+
+/*При ширине экрана от 992px до 1199px*/
+@media (min-width: 992px) and (max-width:1199px){
+    .sol{
+        background: #df8954;
+    }
+}
+
+/*При ширине экрана от 768px до 991px*/
+@media (min-width: 768px) and (max-width:991px){
+    .mol {background: #f2affa;}
+}
+
+/*При ширине экрана 767px и меньше */
+@media (max-width: 767px){
+    .green {color: #07aa18;}
+}
